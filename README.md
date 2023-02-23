@@ -13,7 +13,7 @@ Steps:
 3. Compose the list of Lithuanian sentences (UTF-8 encoding, one sentence per line, LF terminated line) to be synthesized. The file `sentences.txt` is provided as an example.
 4. This step can be skipped unless you wish that synthesized speech files have names different from the sentences themselves. Compose a list of filenames (lets say it is `filenames.txt`) to be used for synthesized sentences, one filename per line. The file `filenames.txt` must have as many filenames as there are sentences in `sentences.txt`.
 5. Open Linux (or WSL) terminal.
-6. Go (cd) to the directory where the archive `bulk_synthesis_linux.zip` was extracted.
+6. Go to (`cd` command) the directory where the archive `bulk_synthesis_linux.zip` was extracted.
 7. Run the script:
 - `./bulk_synthesis.sh sentences.txt`              if you wish that synthesized speech files have names corresponding to the content of a sentence
 
